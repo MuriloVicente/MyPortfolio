@@ -58,7 +58,11 @@ section.formacao {
 }
 
 section.experience {
-    min-height: 90vh;
+    min-height: 80vh;
+}
+
+section.contact {
+    min-height: 85vh;
 }
 
 /* Destaque nome Murilo Vicente */
@@ -80,9 +84,9 @@ span {
 }
 
 .navbar a {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: #fff;
-    margin-right: 2rem;
+    margin-right: 2.1rem;
     transition: .3s;
     font-weight: 500;
 }
@@ -153,11 +157,13 @@ span {
 
 .home-img img {
     position: relative;
-    z-index: 1;
+    /* z-index: 1; */
     border-radius: 50%;
     border: solid #fff;
-    border-width: 10px;
+    border-width: 8%;
     box-shadow: 0 0 28px #fff;
+    width: 110%;
+    margin-right: auto;
 }
 
 .social-media a {
@@ -186,8 +192,8 @@ span {
     position: absolute;
     right: 0;
     top: 0;
-    width: 956px;
-    height: 956px;
+    width: 964px;
+    height: 964px;
     overflow: hidden;
 }
 
@@ -197,10 +203,10 @@ span {
     right: 0;
     width: 0;
     height: 0;
-    border-top: 478px solid #1E90FF;
-    border-right: 478px solid #1E90FF;
-    border-bottom: 478px solid #1E90FF;
-    border-left: 478px solid transparent;
+    border-top: 482px solid #1E90FF;
+    border-right: 482px solid #1E90FF;
+    border-bottom: 482px solid #1E90FF;
+    border-left: 482px solid transparent;
 }
 
 .about .heading  {
@@ -337,10 +343,11 @@ span {
 .contact .heading{
     font-size: 40px;
     text-align: center;
+    margin-bottom: 5%;
 }
 
 .contact form {
-    max-width: 70rem;
+    max-width: 80rem;
     margin: 1rem auto;
     text-align: center;
     margin-bottom: 3rem;
@@ -361,7 +368,7 @@ span {
 .contact form textarea {
     width: 100%;
     padding: 1.2rem;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     border-radius: 5px;
     margin: .7rem 0;
     box-shadow: 0 .1rem .5rem rgba(0, 0, 0, .2);
@@ -369,11 +376,11 @@ span {
 }
 
 .contact form textarea {
-    width: 96.5%;
+    width: 100%;
 }
 
 .contact form .input-box input {
-    width: 46%;
+    width: 49.5%;
 }
 
 .contact form #subject {
@@ -466,7 +473,7 @@ footer {
     background-color: #1E90FF;
     color: #fff;
     text-align: center;
-    font-size: 17px;
+    font-size: 1.3rem;
     padding: 1.7rem;
 }
 
