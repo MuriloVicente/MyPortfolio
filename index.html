@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/media.css">
+
+</head>
+
+<body>
+    <!-- Design Cabeçalho -->
+    <header class="header">
+        <a href="#home" class="logo scrollTo">Murilo.</a>
+        <nav class="navbar">
+            <a href="#home" class="scrollTo">Home</a>
+            <a href="#about" class="scrollTo">Sobre mim</a>
+            <a href="#formacao" class="scrollTo">Formação</a>
+            <a href="#experience" class="scrollTo">Experiências</a>
+            <a href="#contact" class="scrollTo">Contato</a>
+            <a href="#"><i class="fa-brands fa-github fa-xl"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+        </nav>
+
+        <div class='bx bx-menu' id="menu-icon"></div>
+
+    </header>
+
+    <!-- Design da seção Home-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Olá,</h3>
+            <h1>Seja Bem-Vindo ao <br>portifólio de <span>Murilo Vicente</span></h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore ullam mollitia aspernatur dignissimos
+                sed rerum magni veritatis voluptate quia omnis eum
+                perferendis possimus error quaerat vitae voluptatem consequuntur,
+                reiciendis iste.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay"></div>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="assets/imgs/me.jpg" alt="">
+        </div>
+        
+    </section>
+
+    <!-- Seção Sobre Mim -->
+    <section class="about" id="about">
+        <div>
+            <h1 class="heading">Sobre&nbsp<span>mim</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Consequuntur provident repudiandae veritatis unde, 
+                aut reprehenderit animi alias nisi aperiam, error, 
+                delectus eligendi architecto sit pariatur quidem eos quaerat aliquam rem.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Consequuntur provident repudiandae veritatis unde, 
+                aut reprehenderit animi alias nisi aperiam, error, 
+                delectus eligendi architecto sit pariatur quidem eos quaerat aliquam rem.
+            </p>
+        </div>
+    </section>
+
+    <!-- Seção Formação -->
+    <section class="formacao" id="formacao">
+        <div>
+            <h2 class="heading">Formação</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Non, ducimus praesentium laboriosam pariatur aliquam placeat ad accusantium,
+                fuga animi error accusamus eveniet nulla suscipit voluptatibus earum sequi
+                ullam nisi odit
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Non, ducimus praesentium laboriosam pariatur aliquam placeat ad accusantium,
+                fuga animi error accusamus eveniet nulla suscipit voluptatibus earum sequi
+                ullam nisi odit.
+            </p>
+            <h3>Cursos complementares</h3>
+        </div>
+        <!-- Cursos Complementares -->
+        <div class="container-courses">
+            <div class="course-box" id="js">
+                <img src="./assets/imgs/courses/Capa curso web moderno.jpg" alt="Web moderno">
+                <div>
+                    <header>Web Moderno - JavaScript</header>
+                    <div class="course-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Minus hic ipsam harum assumenda quibusdam incidunt ipsum eaque reprehenderit.
+                        <!-- Barra de Progresso -->
+                        <div class="progress-bar-container">
+                            <div class="progress-bar">
+                                <div class="progress">
+                                    <span class="progress-value">50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="status">Cursando</span>
+                    </div>
+                </div>
+            </div>
+            <div class="course-box" id="sql">
+                <img src="./assets/imgs/courses/capa DB e SQL.jpg" alt="Banco de dados">
+                <div>
+                    <header>Banco de Dados Completo e SQL</header>
+                    <div class="course-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Minus hic ipsam harum assumenda quibusdam incidunt ipsum eaque reprehenderit.
+                        <!-- Barra de Progresso -->
+                        <div class="progress-bar-container">
+                            <div class="progress-bar">
+                                <div class="progress">
+                                    <span class="progress-value">5%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="status">Cursando</span>
+                    </div>
+                </div>
+            </div>
+            <div class="course-box" id="csharp">
+                <img src="./assets/imgs/courses/capa csharp.jpg" alt="c# completo">
+                <div>
+                    <header>C# Completo POO</header>
+                    <div class="course-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Minus hic ipsam harum assumenda quibusdam incidunt ipsum eaque reprehenderit.
+                        <!-- Barra de Progresso -->
+                        <div class="progress-bar-container">
+                            <div class="progress-bar">
+                                <div class="progress">
+                                    <span class="progress-value">68%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="status">Interrompido</span>
+                    </div>
+                </div>
+            </div>
+            <div class="course-box" id="react-native">
+                <img src="./assets/imgs/courses/capa curso react native.jpg" alt="react native">
+                <div>
+                    <header>React Native</header>
+                    <div class="course-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Minus hic ipsam harum assumenda quibusdam incidunt ipsum eaque reprehenderit.
+                        <!-- Barra de Progresso -->
+                        <div class="progress-bar-container">
+                            <div class="progress-bar">
+                                <div class="progress">
+                                    <span class="progress-value">20%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="status">Interrompido</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Seção Experiência -->
+    <section class="experience" id="experience">
+        <h2 class="heading">Experiências</h2>
+        <div class="services-box">
+            <div class="logo-service">
+                <img src="./assets/imgs/logo bbts.png" alt="bbts">
+            </div>
+            <div class="service-info">
+                <h3>Banco do Brasil Tecnologia e Serviços - BBTS</h3>
+                <p class="job-function">Auxiliar de Estoque</p>
+                <p class="job-time">Janeiro/2021 - Atual</p>
+                <p class="job-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quasi delectus quam quae dicta atque hic tempore 
+                    voluptatem laudantium saepe. Vel magni tenetur id! Earum est tempore commodi 
+                    quaerat qui consectetur!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quasi delectus quam quae dicta atque hic tempore 
+                    voluptatem laudantium saepe. Vel magni tenetur id! Earum est tempore commodi 
+                    quaerat qui consectetur!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contate <span>me</span></h2>
+        <form action="https://formsubmit.co/murilovicent@gmail.com" method="post">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Nome Completo" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input name="_subject" id="subject" type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+    <!-- Rodapé -->
+    <footer>
+        Copyright © 2023 by Murilo Vicente | All Rights Reserved
+    </footer>
+
+</body>
+
+</body>
+
+</html>

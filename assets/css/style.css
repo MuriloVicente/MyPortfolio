@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serife';
+    text-decoration: none; 
+}
+
+html {
+    font-size: 70%;
+    overflow-x: hidden;
+}
+
+body {
+    color: #333;
+}
+
+/* Ajustes do cabeçalho */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 7%;
+    display: flex;
+    align-items: center;
+    z-index: 9999;
+}
+
+.header.sticky {
+    background-color: #fff;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+    transition: .4s;
+}
+
+#menu-icon {
+    font-size: 9rem;
+    color: #000;
+    position: relative;
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+section.about{
+    min-height: 50vh;
+    padding: 10rem 9% 2rem;
+}
+
+section.formacao {
+    padding: 10rem 0 0;
+}
+
+section.experience {
+    min-height: 90vh;
+}
+
+/* Destaque nome Murilo Vicente */
+span {
+    color: #1E90FF;
+}
+
+/* Ajustes na Logo */
+.logo {
+    font-size: 2.5rem;
+    color: #1E90FF;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-right: auto;
+}
+
+.logo::first-letter {
+    color: #4169E1;
+}
+
+.navbar a {
+    font-size: 1.4rem;
+    color: #fff;
+    margin-right: 2rem;
+    transition: .3s;
+    font-weight: 500;
+}
+
+.header.sticky .navbar a {
+    color: #4F4F4F;
+}
+
+.header.sticky .navbar a:hover {
+    color: #fff;
+}
+
+.header.sticky .navbar a:hover {
+    background-color: rgba( 14, 14, 14, 0.6 );
+    color: #fff;
+}
+
+.navbar a:hover {
+    background-color: rgba( 0, 0, 255, 0.2 );
+    padding: 12px 15px;
+    border-radius: 7px;
+}
+
+.navbar a.active:hover {
+    background-color: #4169E1;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 7px;
+}
+
+.navbar a.active {
+    color: #00008B;
+}
+
+#menu-icon {
+    font-size: 2.5rem;
+    color: #fff;
+    display: none;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+}
+
+.home-content {
+    margin-right: 15%;
+    max-width: 57rem;
+}
+
+.home-content h3 {
+    font-size: 3rem;
+}
+
+.home-content h1:nth-of-type(1) {
+    margin-bottom: 2rem;
+}
+
+.home-content h1 {
+    font-size: 4.1rem;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.home-content p {
+    font-size: 1.4rem;
+}
+
+.home-img img {
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+    border: solid #fff;
+    border-width: 10px;
+    box-shadow: 0 0 28px #fff;
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.4rem;
+    height: 3.4rem;
+    font-size: 1.7rem;
+    color: #1E90FF;
+    margin: 30px 15px 30px 0;
+    border: .2rem #1E90FF solid;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px 0px rgba(0, 0, 0, .2);
+    background: transparent;
+    transition: .5s ease;
+}
+
+.social-media a:hover{
+    background-color: #1E90FF;
+    color: #fff;
+    box-shadow: 0 0 .2rem #1E90FF;
+}
+
+.home .overlay-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 956px;
+    height: 956px;
+    overflow: hidden;
+}
+
+.home .overlay-container .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 478px solid #1E90FF;
+    border-right: 478px solid #1E90FF;
+    border-bottom: 478px solid #1E90FF;
+    border-left: 478px solid transparent;
+}
+
+.about .heading  {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about p {
+    font-size: 18px;
+    margin: 0px 20%;
+    text-align: center;
+}
+
+.formacao .heading {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.formacao h3 {
+    text-align: center;
+    font-size: 1.7rem;
+    margin-bottom: 1.5%;
+}
+
+.formacao p {
+    font-size: 18px;
+    margin: 0 20%;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.container-courses {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #eeeeee;
+}
+
+.course-box {
+    display: inline-block;
+    margin: 5% 10px;
+    width: 15.5%;
+    box-sizing: border-box;
+    box-shadow: 1px 3px 6px 0px rgba(0, 0, 0, .6);
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.course-box img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.course-box header {
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.course-box .course-desc {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 15px;
+}
+
+.course-box .progress-bar-container {
+    width: 100%;
+    margin: 25px 0 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.course-box .progress-bar {
+    background-color: #f1f1f1;
+    width: 70%;
+    border-radius: 8px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress {
+    border-radius: 8px;
+    width: 55%;
+    background-image: 
+    linear-gradient(to right, #0e2eea, #2534f1, #343af8, #4040ff, #4b46ff, #554cff, #5e52ff);
+    animation: colorAnimation 1s infinite;
+}
+
+#js .progress {
+    width: 55%;
+}
+
+#js .status {
+    color: green;
+    font-weight: bold;
+}
+
+#sql .progress {
+    width: 17%;
+}
+
+#sql .status {
+    color: green;
+    font-weight: bold;
+}
+
+#csharp .progress {
+    width: 68%;
+}
+
+#csharp .status {
+    color: red;
+    font-weight: bold;
+}
+
+#react-native .progress {
+    width: 30%;
+}
+
+#react-native .status {
+    color: red;
+    font-weight: bold;
+}
+
+.progress-bar .progress-value {
+    color: #fff;
+    font-weight: 600;
+}
+
+.contact .heading{
+    font-size: 40px;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact form .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea:focus {
+    outline: none;
+}
+
+.contact form .input-box input,
+.contact form textarea {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    margin: .7rem 0;
+    box-shadow: 0 .1rem .5rem rgba(0, 0, 0, .2);
+    border: none;
+}
+
+.contact form textarea {
+    width: 96.5%;
+}
+
+.contact form .input-box input {
+    width: 46%;
+}
+
+.contact form #subject {
+    width: 100%;
+}
+
+.contact form textarea {
+    resize: none;
+}
+
+.btn {
+    padding: 15px 30px;
+    background: #1E90FF;
+    color: #fff;
+    border-color: #1E90FF;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    font-weight: 650;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #1E90FF;
+    border-color: #1E90FF;
+    border: 1px solid;
+    transition: .3s ease-out;
+}
+
+.experience {
+    margin: 0 10%;
+}
+
+.experience .heading {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 12%;
+}
+
+.experience .services-box {
+    display: inline-block;
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+
+.experience .logo-service {
+    display: block;
+    position: relative;
+    float: left;
+    width: 20%;
+}
+
+.experience .services-box img {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 1px 3px 6px 0px rgba(0, 0, 0, .4)
+}
+
+.experience .service-info {
+    float: right;
+    position: relative;
+    max-width: 80%;
+}
+
+.experience .service-info h3 {
+    font-size: 22px;
+    margin-bottom: 1%;
+}
+
+.experience .service-info .job-function {
+    font-size: 18px;
+}
+
+.experience .service-info .job-time {
+    font-size: 13.5px;
+    margin-top: 0.5%;
+}
+
+.experience .service-info .job-desc {
+    font-size: 15px;
+    margin-top: 3%;
+    
+}
+
+footer {
+    background-color: #1E90FF;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    padding: 1.7rem;
+}
+
+@keyframes colorAnimation {
+    0% { 
+      background-image: 
+      linear-gradient(to right, #5e52ff, #554cff, #4b46ff, #4040ff, #343af8, #2534f1, #0e2eea);
+    }
+    20% { 
+        background-image: 
+        linear-gradient(to right, #554cff, #343af8, #5e52ff, #4040ff, #0e2eea, #4b46ff, #2534f1);
+    }
+    60% { 
+        background-image: 
+        linear-gradient(to right, #4b46ff, #4040ff, #2534f1, #554cff, #0e2eea, #5e52ff, #343af8);
+      }
+    100% {
+        background-image: 
+        linear-gradient(to right, #343af8, #554cff, #5e52ff, #0e2eea, #4b46ff, #2534f1, #4040ff)
+    }
+}
