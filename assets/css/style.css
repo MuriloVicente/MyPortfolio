@@ -200,7 +200,7 @@ span {
 .home .overlay-container .overlay {
     position: absolute;
     top: 0;
-    right: 0;
+    right: -15%;
     width: 0;
     height: 0;
     border-top: 482px solid #1E90FF;
@@ -210,19 +210,19 @@ span {
 }
 
 .about .heading  {
-    font-size: 40px;
+    font-size: 3.5rem;
     text-align: center;
     margin-bottom: 30px;
 }
 
 .about p {
-    font-size: 18px;
+    font-size: 1.5rem;
     margin: 0px 20%;
     text-align: center;
 }
 
 .formacao .heading {
-    font-size: 40px;
+    font-size: 3.5rem;
     text-align: center;
     margin-bottom: 3%;
 }
@@ -234,7 +234,7 @@ span {
 }
 
 .formacao p {
-    font-size: 18px;
+    font-size: 1.5rem;
     margin: 0 20%;
     text-align: center;
     margin-bottom: 150px;
@@ -255,6 +255,7 @@ span {
     box-shadow: 1px 3px 6px 0px rgba(0, 0, 0, .6);
     border-radius: 5px;
     background-color: #fff;
+    overflow: hidden;
 }
 
 .course-box img {
@@ -341,7 +342,7 @@ span {
 }
 
 .contact .heading{
-    font-size: 40px;
+    font-size: 3.5rem;
     text-align: center;
     margin-bottom: 5%;
 }
@@ -417,7 +418,7 @@ span {
 }
 
 .experience .heading {
-    font-size: 40px;
+    font-size: 3.5rem;
     text-align: center;
     margin-bottom: 12%;
 }
@@ -437,10 +438,10 @@ span {
 }
 
 .experience .services-box img {
-    width: 120px;
+    width: 70%;
     height: auto;
     border-radius: 50%;
-    box-shadow: 1px 3px 6px 0px rgba(0, 0, 0, .4)
+    box-shadow: 1px 3px 6px 0px rgba(0, 0, 0, .4);
 }
 
 .experience .service-info {
@@ -450,21 +451,21 @@ span {
 }
 
 .experience .service-info h3 {
-    font-size: 22px;
+    font-size: 2rem;
     margin-bottom: 1%;
 }
 
 .experience .service-info .job-function {
-    font-size: 18px;
+    font-size: 1.6rem;
 }
 
 .experience .service-info .job-time {
-    font-size: 13.5px;
+    font-size: 1.1rem;
     margin-top: 0.5%;
 }
 
 .experience .service-info .job-desc {
-    font-size: 15px;
+    font-size: 1.3rem;
     margin-top: 3%;
     
 }
