@@ -38,14 +38,15 @@ body {
 }
 
 #menu-icon {
-    font-size: 9rem;
+    font-size: 3rem;
     color: #000;
-    position: relative;
+    display: none;
 }
 
 section {
     min-height: 100vh;
     padding: 10rem 9% 2rem;
+    overflow: hidden;
 }
 
 section.about{
@@ -212,7 +213,7 @@ span {
 .about .heading  {
     font-size: 3.5rem;
     text-align: center;
-    margin-bottom: 30px;
+    margin: 8rem 0 2rem 0;
 }
 
 .about p {
@@ -268,6 +269,7 @@ span {
     text-align: center;
     font-weight: bold;
     margin-top: 10px;
+    padding: 0.5rem;
 }
 
 .course-box .course-desc {
@@ -393,7 +395,7 @@ span {
 }
 
 .btn {
-    padding: 15px 30px;
+    padding: 1.4rem 2.8rem;
     background: #1E90FF;
     color: #fff;
     border-color: #1E90FF;
