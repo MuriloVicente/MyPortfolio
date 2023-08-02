@@ -59,7 +59,7 @@ section.formacao {
 }
 
 section.experience {
-    min-height: 80vh;
+    min-height: 70vh;
 }
 
 section.contact {
@@ -135,7 +135,7 @@ span {
 
 .home-content {
     margin-right: 15%;
-    max-width: 54rem;
+    max-width: 57rem;
 }
 
 .home-content h3 {
@@ -193,7 +193,7 @@ span {
     position: absolute;
     right: 0;
     top: 0;
-    width: 100%;
+    width: 91rem;
     height: 100%;
     overflow: hidden;
 }
@@ -250,7 +250,7 @@ span {
 
 .course-box {
     display: inline-block;
-    margin: 5% 10px;
+    margin: 8rem 1rem;
     width: 15.5%;
     box-sizing: border-box;
     box-shadow: 1px 3px 6px 0px rgba(0, 0, 0, .6);
@@ -275,19 +275,20 @@ span {
 .course-box .course-desc {
     text-align: center;
     font-size: 1.2rem;
-    padding: 15px;
+    padding: 1.2rem;
 }
 
-.course-box .progress-bar-container {
+.progress-bar-container {
     width: 100%;
-    margin: 25px 0 15px 0;
+    margin: 1.5rem 0 1.5rem 0;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1rem;
+    text-align: center;
 }
 
-.course-box .progress-bar {
+.progress-bar {
     background-color: #f1f1f1;
     width: 70%;
     border-radius: 8px;
@@ -300,6 +301,13 @@ span {
     background-image: 
     linear-gradient(to right, #0e2eea, #2534f1, #343af8, #4040ff, #4b46ff, #554cff, #5e52ff);
     animation: colorAnimation 1s infinite;
+}
+
+.status {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.3rem;
+    font-size: 1.2rem;
 }
 
 #js .progress {
@@ -320,6 +328,10 @@ span {
     font-weight: bold;
 }
 
+/* #sql .progress-bar-container {
+    margin-top: 12.1%;
+} */
+
 #csharp .progress {
     width: 68%;
 }
@@ -328,6 +340,14 @@ span {
     color: red;
     font-weight: bold;
 }
+
+/* #csharp .progress-bar-container {
+    margin-top: 4%;
+}
+
+#react-native .progress-bar-container {
+    margin-top: 4%;
+} */
 
 #react-native .progress {
     width: 30%;

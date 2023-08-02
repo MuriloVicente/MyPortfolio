@@ -1,6 +1,6 @@
 @media (max-width: 1610px) {
     .home .overlay-container .overlay {
-        right: -20rem;
+        right: -30rem;
     }
 }
 
@@ -14,12 +14,8 @@
     html {
         font-size: 60%;
     }
-    .home .overlay-container {
-        height: 92rem;
-    }
-
     .home .overlay-container .overlay {
-        right: -30rem;
+        right: -55rem;
     }
     section.experience {
         min-height: 70vh;
@@ -46,14 +42,11 @@
 }
 
 @media (max-width: 991px) {
-    .navbar a:nth-child(1) {
-        color: #1E90FF;
-    }
     .home .home-content {
         max-width: 50rem;
     }
     .home .overlay-container .overlay {
-        right: -46rem;
+        right: -53rem;
     }
         .home-img img {
             display: none;
@@ -152,6 +145,9 @@
     }
     .home {
         padding: 0 3% 30rem;
+    }
+    .home .home-content {
+        margin-top: 20rem;
     }
     .contact form .input-box input {
         width: 100%;
