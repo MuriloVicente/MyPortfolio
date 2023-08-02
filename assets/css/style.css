@@ -135,7 +135,7 @@ span {
 
 .home-content {
     margin-right: 15%;
-    max-width: 57rem;
+    max-width: 54rem;
 }
 
 .home-content h3 {
@@ -193,8 +193,8 @@ span {
     position: absolute;
     right: 0;
     top: 0;
-    width: 964px;
-    height: 964px;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
 }
 
@@ -205,9 +205,9 @@ span {
     width: 0;
     height: 0;
     border-top: 482px solid #1E90FF;
-    border-right: 482px solid #1E90FF;
+    border-right: 582px solid #1E90FF;
     border-bottom: 482px solid #1E90FF;
-    border-left: 482px solid transparent;
+    border-left: 582px solid transparent;
 }
 
 .about .heading  {
