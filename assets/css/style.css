@@ -260,6 +260,10 @@ span {
     overflow: hidden;
 }
 
+/* #csharp {
+    display: none;
+} */
+
 .course-box img {
     width: 100%;
     border-radius: 5px;
@@ -329,10 +333,6 @@ span {
     font-weight: bold;
 }
 
-/* #sql .progress-bar-container {
-    margin-top: 12.1%;
-} */
-
 #csharp .progress {
     width: 68%;
 }
@@ -341,14 +341,6 @@ span {
     color: red;
     font-weight: bold;
 }
-
-/* #csharp .progress-bar-container {
-    margin-top: 4%;
-}
-
-#react-native .progress-bar-container {
-    margin-top: 4%;
-} */
 
 #react-native .progress {
     width: 30%;
